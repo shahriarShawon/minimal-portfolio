@@ -1,0 +1,158 @@
+/* Global Design */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.textHighlight {
+    color:orange;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+/* Global Design */
+
+/* Hero Section */
+
+.heroSection    {
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    height: 75vh;
+}
+
+.sectionHalf1 {
+    padding-left: 100px;
+}
+
+.sectionHalf2 {
+    padding-right: 100px;
+    margin-left: 100px;
+}
+
+.heroText {
+    text-align: justify;
+    margin: 30px 200px 30px 0;
+}
+
+.globalBtn {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section Ends */
+
+/* Dream Section Starts */
+.dreamSection {
+    margin-top: 120px;
+    height: 75vh;
+    background-image: url("./assets/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dreamText {
+    text-align: justify;
+    margin: 50px 100px 50px 0;
+
+}
+/* Dream Section Ends */
+
+/* Experiences Section */
+.myExp {
+    margin-left: 75px;
+}
+
+.expSection {
+    height: 75vh;
+    background-image: url("./assets/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 45px;
+}
+.exp {
+   height: 100%;
+   box-shadow: 10px 10px 10px grey;
+   margin-top: 70px;
+   border-radius: 5px;
+   padding-top: 25px;
+   padding-left: 25px;
+   padding-right: 25px;
+   background-color: white;
+}
+
+.exp h3 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.expText {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.wordpress {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+    margin-left: -25px;
+
+}
+
+.bohubrihi {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+/* Experiences Section Ends */
+
+/* Footer */
+.footerSection {
+    height: 5vh;
+}
+
+footer {
+    text-align: center;
+}
+
+.copyright {
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* Footer */
